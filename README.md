@@ -18,12 +18,30 @@ sudo apt-get install ntpdate (Debian/Ubuntu)
 sudo yum install ntpdate (CentOS/RHEL)
 sudo dnf install ntpdate (Fedora)
 ```
- Ahora solo debemos dirigirnos preferiblemente **/usr/bin** y movemos allí el script
- **ntpdate_sync.sh**, ahora procedemos a ejecutarlo "**./ntpdate_sync.sh**" y darle permisos
- de ejecución **chmod +x ntpdate_sync.sh**.
+ Ahora solo debemos dirigirnos preferiblemente 
+ ```
+ /usr/bin/
+ ```
+ y movemos allí el script
+ ```
+ ntpdate_sync.sh
+ ```
+ ahora procedemos a ejecutarlo 
+ ```
+ ./ntpdate_sync.sh
+ ```
+ y darle permisos
+ de ejecución
+ ```
+ chmod +x ntpdate_sync.sh
+ ```
  
  Seguido a eso debemo programar ese nuevo comando para que se inicie cada que encendamos la
- pc, con un **sudo contrab -e**, se no abrira un archivo y seguimos las instrucciones que nos da,
+ pc, con un
+ ```
+ sudo contrab -e
+ ```
+ se no abrira un archivo y seguimos las instrucciones que nos da,
  por si no lo entendio, lo que tiene que hacer es crear una nueva linea y escribir:
  ```
  @remote /ruta/del/script.sh
