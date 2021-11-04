@@ -10,7 +10,7 @@ Script ideal para automatizar la sincronización de la hora en linux
 *Esta herramienta la desarrolle una tarde libre xd, con el proposito de de problemas concurrentes al instalar linux*
 
 <h1 align="center"> ntpdateSync.sh</h1>
-<p align="center"><img src="https://images.unsplash.com/photo-1594904351111-a072f80b1a71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80"/></p> 
+<p align="center"><img src="https://miro.medium.com/max/1400/1*xzoZwse9zw2Obva2ybLQVA.png"/></p> 
 
 Para poder usar este script correctamente debemos tener instalados los paquetes:
 ```
