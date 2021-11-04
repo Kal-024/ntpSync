@@ -30,6 +30,6 @@ sudo dnf install ntpdate (Fedora)
  '''
  Guardamos los cambios y solo es cuetios de reiniciar la sesion de la maquina para comprobar que todo se ejecuto correctamente
  
- ###Más detalle sobre el comando contrab:###
+ ### Más detalle sobre el comando contrab: ###
  * [https://geekytheory.com/programar-tareas-en-linux-usando-crontab/](https://geekytheory.com/programar-tareas-en-linux-usando-crontab)
  
